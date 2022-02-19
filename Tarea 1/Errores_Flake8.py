@@ -1,11 +1,11 @@
 # Errores Flake8
 
-#Generado por Emiliano Alfaro Chacón
+# Generado por Emiliano Alfaro Chacón
 
-def string_work (nombre):
-    if isinstance(nombre, str) == True:
+def string_work(nombre):
+    if isinstance(nombre, str) is True:
         # isalpha detecta si el valor de nombre es un string
-        if nombre.isalpha() == True:
+        if nombre.isalpha() is True:
             # Inversión de mayúsculas y minúsculas
             inversion = nombre.swapcase()
             print(f"Nombre invertido: {inversion}")
